@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "caabcb89-41fd-4c86-8178-ca1e44842d29",
+  "alias": "PinkWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "caabcb89-41fd-4c86-8178-ca1e44842d29",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Pink Web Part" },
+    "description": { "default": "This web part changes the body to be pink" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Pink Web Part"
+    }
+  }]
+}

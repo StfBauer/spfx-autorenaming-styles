@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "f8a156d2-cc26-4a95-800f-7112cdcaa308",
+  "alias": "DisabledAutoPrefixWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "f8a156d2-cc26-4a95-800f-7112cdcaa308",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Disabled AutoPrefix" },
+    "description": { "default": "This web part has disabled autoprefixing" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Disabled AutoPrefix"
+    }
+  }]
+}

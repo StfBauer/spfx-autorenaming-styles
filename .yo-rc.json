@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "spfx-autoprefix-styles",
+    "libraryId": "eb707fac-1f66-4fde-8c2b-385dfa6cdf26",
+    "framework": "react"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "bcd3b8f6-ec90-4071-b78d-2c3dfd94119c",
+  "alias": "BlackWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "bcd3b8f6-ec90-4071-b78d-2c3dfd94119c",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Black Web Part" },
+    "description": { "default": "This web part changes the body to black" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Black Web Part"
+    }
+  }]
+}

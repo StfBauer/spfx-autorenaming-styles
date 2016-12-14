@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-autoprefix-styles-client-side-solution",
+    "id": "eb707fac-1f66-4fde-8c2b-385dfa6cdf26",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-autoprefix-styles.spapp"
+  }
+}

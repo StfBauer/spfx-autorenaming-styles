@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/defaultHelloWorldWebPart/DefaultHelloWorldWebPartWebPart.js",
+      "manifest": "./src/webparts/defaultHelloWorldWebPart/DefaultHelloWorldWebPartWebPart.manifest.json",
+      "outputPath": "./dist/default-hello-world-web-part.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/disabledAutoPrefix/DisabledAutoPrefixWebPart.js",
+      "manifest": "./src/webparts/disabledAutoPrefix/DisabledAutoPrefixWebPart.manifest.json",
+      "outputPath": "./dist/disabled-auto-prefix.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/bootstrapWebPart/BootstrapWebPartWebPart.js",
+      "manifest": "./src/webparts/bootstrapWebPart/BootstrapWebPartWebPart.manifest.json",
+      "outputPath": "./dist/bootstrap-web-part.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/withoutBootstrap/WithoutBootstrapWebPart.js",
+      "manifest": "./src/webparts/withoutBootstrap/WithoutBootstrapWebPart.manifest.json",
+      "outputPath": "./dist/without-bootstrap.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/pinkWebPart/PinkWebPartWebPart.js",
+      "manifest": "./src/webparts/pinkWebPart/PinkWebPartWebPart.manifest.json",
+      "outputPath": "./dist/pink-web-part.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/blackWebPart/BlackWebPartWebPart.js",
+      "manifest": "./src/webparts/blackWebPart/BlackWebPartWebPart.manifest.json",
+      "outputPath": "./dist/black-web-part.bundle.js"
+    }
+  ],
+  "externals": {
+    "@microsoft/sp-client-base": "node_modules/@microsoft/sp-client-base/dist/sp-client-base.js",
+    "@microsoft/sp-webpart-base": "node_modules/@microsoft/sp-webpart-base/dist/sp-webpart-base.js",
+    "@microsoft/sp-client-preview": "node_modules/@microsoft/sp-client-preview/dist/sp-client-preview.js",
+    "@microsoft/sp-lodash-subset": "node_modules/@microsoft/sp-lodash-subset/dist/sp-lodash-subset.js",
+    "office-ui-fabric-react": "node_modules/office-ui-fabric-react/dist/office-ui-fabric-react.js",
+    "react": "node_modules/react/dist/react.min.js",
+    "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
+    "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js"
+  },
+  "localizedResources": {
+    "defaultHelloWorldWebPartStrings": "webparts/defaultHelloWorldWebPart/loc/{locale}.js",
+    "disabledAutoPrefixStrings": "webparts/disabledAutoPrefix/loc/{locale}.js",
+    "bootstrapWebPartStrings": "webparts/bootstrapWebPart/loc/{locale}.js",
+    "withoutBootstrapStrings": "webparts/withoutBootstrap/loc/{locale}.js",
+    "pinkWebPartStrings": "webparts/pinkWebPart/loc/{locale}.js",
+    "blackWebPartStrings": "webparts/blackWebPart/loc/{locale}.js"
+  }
+}

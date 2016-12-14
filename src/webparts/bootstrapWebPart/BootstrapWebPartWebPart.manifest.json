@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "683b3fb0-7958-4b19-b8ed-554cded13277",
+  "alias": "BootstrapWebPartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "683b3fb0-7958-4b19-b8ed-554cded13277",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Bootstrap Web Part" },
+    "description": { "default": "This web part use twitter Bootstrap" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Bootstrap Web Part"
+    }
+  }]
+}

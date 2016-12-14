@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "310fe73c-b407-41e0-b7ff-311c44d49385",
+  "alias": "WithoutBootstrapWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "310fe73c-b407-41e0-b7ff-311c44d49385",
+    "group": { "default": "Under Development" },
+    "title": { "default": "WithoutBootstrap" },
+    "description": { "default": "Webpart use same classe just without bootstrap" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "WithoutBootstrap"
+    }
+  }]
+}
