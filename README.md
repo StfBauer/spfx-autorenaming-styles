@@ -1,5 +1,5 @@
-# SPFX Sample on how to deal with autorenaming of class names
-This sample demonstrates how items can be moved from one web part to another just by using the [HTML5 drag and drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) and [React](https://facebook.github.io/react/).
+# SPFX Sample on how to handle or disable CSS class autorenaming in SPFx
+This sample show how to handle or disable autorenaming of class names in the SharePoint Framework [React](https://facebook.github.io/react/).
 
 ## Installation
 This sample is built with the [SharePoint Framework SPFX Drop 6](https://github.com/SharePoint/sp-dev-docs/wiki/Release-Notes-Drop-6). To install simply execute:
@@ -14,7 +14,7 @@ This will install all npm dependencies for this sample. Once this have been fini
 gulp serve
 ```
 
-Additional information can be found on my blog - [Drag and drop elements across web parts](http://www.n8d.at/blog/spfx-sample-drag-and-drop-elements-between-web-parts/)
+Additional information can be found on my blog - [How to handle automatic CSS class renaming in SPFx](http://www.n8d.at/blog/how-to-handle-automatic-css-class-renaming-in-spfx/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+n8d+%28Design+%26+Development+by+Stefan+Bauer+-+n8d%29)
 
 ## License
 Copyright (c) 2016 Stefan Bauer
