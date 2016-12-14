@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## spfx-autoprefix-styles
 
 This is where you include your web part docs.
@@ -24,3 +25,7 @@ gulp test - TODO
 gulp watch - TODO
 gulp build - TODO
 gulp deploy - TODO
+=======
+# spfx-autrenaming-styles
+This SPFx sample shows various consideration around autoprefixing in the Framwork and additional ideas
+>>>>>>> aa5db508be2ae949729a3b33eac24c9548eece8e
