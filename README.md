@@ -1,4 +1,7 @@
 # SPFX Sample on how to handle or disable CSS class autorenaming in SPFx
+
+![SPFx Drop 6](https://img.shields.io/badge/SPFx-Drop%206-%23da3b01.svg)
+
 This sample show how to handle or disable autorenaming of class names in the SharePoint Framework [React](https://facebook.github.io/react/).
 
 ## Installation
